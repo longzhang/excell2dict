@@ -78,7 +78,7 @@ class ConvertExcel(object):
                     else :
                         values[i] = 0 
                 if format_type == 'long' :
-                        values [i] = Long(value)
+                        values [i] = long(value)
                 if format_type == 'float' :
                     values[i] = float(value)
                 if format_type == 'str' :
